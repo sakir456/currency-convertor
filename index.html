@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="main-box">
+            <h1 class="heading">Currency Convertor</h1>
+            <div class="from-container">
+                <input type="number" min="1" class="from-input">
+                <select name="from-select" id="from-select" class="from-select">
+
+                </select>
+            </div>
+            <i class="fa-solid fa-arrow-down"></i>
+            <div class="to-container">
+                <input type="text" class="to-input">
+                <select name="to-select" id="to-select" class="to-select">
+
+                </select>
+            </div>
+            <button class="convert-btn" onclick="convertcurrency()">Get Exchange Rate</button>
+             <div class="display-result" ></div>
+
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
